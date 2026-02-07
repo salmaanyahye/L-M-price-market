@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Market Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+    <h1>Local Market Price Tracker</h1>
+    <p>La soco qiimaha suuqa deegaanka</p>
+</header>
+
+<section>
+    <h2>Ku dar Badeecad</h2>
+
+    <form id="priceForm">
+        <input type="text" id="productName" placeholder="Magaca Badeecadda">
+        <input type="number" id="productPrice" placeholder="Qiimaha">
+        <button type="submit">Add Price</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Badeecad</th>
+                <th>Qiime</th>
+            </tr>
+        </thead>
+        <tbody id="priceTable"></tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
